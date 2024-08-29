@@ -1,0 +1,128 @@
+html
+{
+     font-size:62.5%;
+}
+
+body
+{
+     background-color: black;
+
+}
+
+.main
+{
+     
+     display: flex;
+     justify-content:center;
+     flex-wrap:wrap ;
+     text-align: center;
+}
+
+
+.box
+{
+     width:30rem;
+     height:20rem;
+     border:2px dotted white;
+     margin:2rem;
+     
+     
+}
+
+button
+{
+     padding:5px;
+     font-size:10px;
+     cursor:pointer;
+     width:30px;
+     height:30px;
+
+}
+
+#dark
+{
+     background-color:green;
+     border-right:none;
+     color:white;
+     margin-right:-3px;
+}
+
+#light
+{
+     border-left:none;
+
+}
+.b1
+{
+    background-image:url('img/1.jpeg');
+
+}
+
+.b2
+{
+    background-image:url('img/2.jpeg');
+
+}
+
+.b3
+{
+    background-image:url('img/3.jpeg');
+
+}
+
+.b4
+{
+    background-image:url('img/4.jpeg');
+
+}
+
+h1
+{
+     color:white;
+     
+     font-size:5rem;
+     
+     
+}
+
+@media screen and (max-width:700px) {
+     
+     html
+     {
+          font-size:46%;
+     }
+     
+     /* .box
+     {
+          
+          background:#ddfe;
+     } */
+     
+     h1
+               {
+               text-align: center;
+          }
+     
+     
+}
+
+@media screen and (max-width:2070px) {
+     
+     html
+     {
+          font-size:50%;
+     }
+     /* 
+     body
+     {
+          
+     /* flex-direction: column; */
+     
+     
+     h1
+               {
+               text-align: center;
+          }
+     
+     
+}
