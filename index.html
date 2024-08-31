@@ -19,8 +19,14 @@
     <button onclick="lmode()" id="light"><i class="fa-regular fa-sun"></i></button>
     <h1 id="h">THE NATURE BEAUTY</h1>
 
-    <button><i class="fa-solid fa-angle-right"></i></button>
-    <div class="slide"></div>
+    <button class="bi" onclick="disp()"><i class="fa-solid fa-bars"></i></button>
+    <div class="slide" id="sli">
+      <a href="https://www.google.com" target="_parent">Google</a>
+      <a href="https://www.facebook.com">Facebook</a>
+      <a href="https://www.youtube.com">Youtube</a>
+      <a href="https://www.instagram.com">Instagram</a>
+      <a href="#" onclick="cls()">Close</a>
+    </div>
     <div class="main">
       <div class="box b1"></div>
       <div class="box b2"></div>
@@ -46,6 +52,15 @@
       dark.style.background = "green";
       dark.style.color = "white";
       h.style.color = "white";
+    }
+    function disp() {
+      sli.style.display = "inline-block";
+      
+    }
+
+    function cls() {
+      sli.style.display = "none";
+      
     }
   </script>
 </html>
