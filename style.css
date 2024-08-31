@@ -39,6 +39,19 @@ button
 
 }
 
+.slide
+{
+     display:inline-block;
+     width:500px;
+     height:300px;
+     position: absolute;
+     background-color:white;
+     opacity:0%;
+     border:2px solid white;
+}
+
+
+
 #dark
 {
      background-color:green;
@@ -101,12 +114,13 @@ h1
      
      
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:470px) {
      
      html
      {
-          font-size:46%;
-     } .box
+          font-size:40%;
+     } 
+     .box
      {
           flex-direction: column;
      
